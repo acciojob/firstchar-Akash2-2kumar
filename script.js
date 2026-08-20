@@ -1,5 +1,10 @@
 function firstChar(text) {
   // your code here
+  text = text.trim();
+
+    if(text.length === 0){
+        return "";
+    }
   let ans=text.trim().charAt(0);
 	if(ans==' '){
 		ans="";
