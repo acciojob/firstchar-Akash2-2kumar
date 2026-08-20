@@ -6,9 +6,6 @@ function firstChar(text) {
         return "";
     }
   let ans=text.trim().charAt(0);
-	if(ans==' '){
-		ans="";
-	}
   return ans;
 }
 
